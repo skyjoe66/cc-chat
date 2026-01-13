@@ -30,7 +30,12 @@ Before you begin, ensure you have the following installed:
 
    Install Claude Code:
    ```bash
-   npm install -g @anthropics/claude-code
+   npm install -g @anthropic-ai/claude-code
+   ```
+
+   Or use the native installer (recommended):
+   ```bash
+   curl -fsSL https://claude.ai/install.sh | bash
    ```
 
 ## Quick Start
@@ -277,7 +282,7 @@ docker run -p 5007:5007 -v cc-chat-data:/app/data cc-chat
 
 Ensure Claude Code is installed globally:
 ```bash
-npm install -g @anthropics/claude-code
+npm install -g @anthropic-ai/claude-code
 ```
 
 And that your PATH includes npm global binaries:
