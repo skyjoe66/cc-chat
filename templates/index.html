@@ -39,10 +39,19 @@
                     </button>
                 </form>
                 <p id="login-error" class="login-error"></p>
-                <p class="login-help">
-                    Get your API key from the
-                    <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Console</a>
-                </p>
+                <div class="login-help-section">
+                    <p class="login-help-title">How to get your credentials:</p>
+                    <div class="login-help-option">
+                        <strong>Option 1: API Key</strong>
+                        <p>Get your API key from the <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Console</a></p>
+                        <p class="login-help-note">Starts with <code>sk-ant-</code></p>
+                    </div>
+                    <div class="login-help-option">
+                        <strong>Option 2: OAuth Token</strong>
+                        <p>Run <code>claude</code> in your terminal and complete the login flow</p>
+                        <p class="login-help-note">Your token will be saved at <code>~/.claude/credentials.json</code></p>
+                    </div>
+                </div>
             </div>
         </div>
 

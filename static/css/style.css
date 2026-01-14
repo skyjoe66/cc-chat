@@ -144,6 +144,70 @@ body {
     text-decoration: underline;
 }
 
+.login-help-section {
+    margin-top: 1.5rem;
+    text-align: left;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.login-help-title {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.login-help-option {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.login-help-option:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.login-help-option strong {
+    color: var(--accent);
+    font-size: 0.85rem;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.login-help-option p {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin: 0.25rem 0;
+}
+
+.login-help-option a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.login-help-option a:hover {
+    text-decoration: underline;
+}
+
+.login-help-note {
+    color: var(--text-secondary);
+    font-size: 0.75rem !important;
+    opacity: 0.8;
+}
+
+.login-help-option code {
+    background: var(--code-bg);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+    font-size: 0.75rem;
+}
+
 /* ============================================================================
    Main App Layout (with sidebar)
    ============================================================================ */
